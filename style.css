@@ -22,7 +22,7 @@ body {
 
     div.header {
         padding: 5px 12px 5px 12px;
-        margin: 10px 22px 10px 10px;
+        margin: 10px 10px 10px 10px;
 
 
         background-color: #b6b6b6;
@@ -170,9 +170,9 @@ body {
         opacity: 85%;
 
 
-        text-align: left;
+        text-align: center;
         line-height: 2em;
-        padding-left: 5%;
+        
 
         border-style: solid;
         border-color: #f2A900;
