@@ -87,53 +87,9 @@ body {
 
     }
 
-    div.sharma {
-        float: left;
-        padding-left: 50px;
-        padding-top: 110px;
-        padding-bottom: 110px;
-        border-style: none;
-        
-        
-        
-    }
-
-    div.nam { 
-        float: right;
-        clear: none;
-        padding-right: 50px;
-        padding-top: 110px;
-        padding-bottom: 110px;
-        border-style: none;
-        border-radius: 5px;
-        align: center;
-    }
-
-    div.coolexample {
-        float: left;
-        padding-left: 50px;
-        padding-top: 110px;
-        padding-bottom: 110px;
-        border-style: none;
-        clear: both;
-
-    }
-
-    div.tycobb {
-        float: right;
-        clear: none;
-        padding-right: 50px;
-        padding-top: 110px;
-        padding-bottom: 110px;
-        border-style: none;
-        border-radius: 5px;
-        align: center;
-
-    }
-
     div.orderedlist {
         padding: 0px 12px 0px 12px;
-        margin: 20px 300px 20px 300px;
+        margin: 20px 10px 20px 10px;
 
 
         background-color: #494949;
@@ -333,6 +289,51 @@ body {
 
 
        }
+
+
+div.sharma {
+        float: left;
+        padding-left: 50px;
+        padding-top: 110px;
+        padding-bottom: 110px;
+        border-style: none;
+        
+        
+        
+    }
+
+    div.nam { 
+        float: right;
+        clear: none;
+        padding-right: 50px;
+        padding-top: 110px;
+        padding-bottom: 110px;
+        border-style: none;
+        border-radius: 5px;
+        align: center;
+    }
+
+    div.coolexample {
+        float: left;
+        padding-left: 50px;
+        padding-top: 110px;
+        padding-bottom: 110px;
+        border-style: none;
+        clear: both;
+
+    }
+
+    div.tycobb {
+        float: right;
+        clear: none;
+        padding-right: 50px;
+        padding-top: 110px;
+        padding-bottom: 110px;
+        border-style: none;
+        border-radius: 5px;
+        align: center;
+
+    }
        
 
     
