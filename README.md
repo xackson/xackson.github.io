@@ -1,3 +1,3 @@
 # xackson.github.io
 
-## Ok, well... We got it running (12/17/23)
+## Up and running (12/17/23)
