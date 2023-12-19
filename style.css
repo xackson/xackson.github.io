@@ -243,18 +243,16 @@ body {
 
     div.subparagraph { 
         
-        margin-left: 75px;
-        margin-right: 75px;
+        padding: 5px;
+        margin: 20px 10px 20px 10px;
 
-        padding-left: 25px;
-
-
+        text-align: center;
+        border-style: none;
+        border-color:#f2a900;
         background-color: #494949;
-        opacity: 85%;
+        border-radius: 10px;
 
-        border-style: solid;
-        border-width: 5px;
-        border-radius: 20px;    
+        opacity: 85%;  
         
 
     }
