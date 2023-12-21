@@ -293,8 +293,8 @@ body {
 div.sharma {
         float: left;
         padding-left: 50px;
-        padding-top: 110px;
-        padding-bottom: 110px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         border-style: none;
         
         
@@ -305,8 +305,8 @@ div.sharma {
         float: right;
         clear: none;
         padding-right: 50px;
-        padding-top: 110px;
-        padding-bottom: 110px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         border-style: none;
         border-radius: 5px;
         align: center;
@@ -315,8 +315,8 @@ div.sharma {
     div.coolexample {
         float: left;
         padding-left: 50px;
-        padding-top: 110px;
-        padding-bottom: 110px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         border-style: none;
         clear: both;
 
@@ -326,8 +326,8 @@ div.sharma {
         float: right;
         clear: none;
         padding-right: 50px;
-        padding-top: 110px;
-        padding-bottom: 110px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         border-style: none;
         border-radius: 5px;
         align: center;
