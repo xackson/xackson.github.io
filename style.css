@@ -24,6 +24,14 @@ body {
         
     }
 
+    img.miketyson {
+        height: 40px;
+        width: 40px;
+
+        float: right;
+        clear: none;
+    }
+
     div.header {
         padding: 5px 12px 5px 12px;
         margin: 10px 10px 10px 10px;
@@ -197,6 +205,16 @@ body {
         font-size: 16px;
         font-family:'Courier New', Courier, monospace;
         text-align: center;
+        color: white;
+        line-height: 2em;
+
+        margin-left: 10px;
+        margin-right: 10px;
+
+        border-radius: 10px;
+        border-style: solid;
+        border-color: #f2a900;
+        border-width: 3px;
     }
     
     p { 
