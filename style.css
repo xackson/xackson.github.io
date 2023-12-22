@@ -11,25 +11,8 @@ body {
     max-width: 100%;
     }
 
-    .banner {
-        display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-        width: 180px;
-        height: 58px;
-    }
-
     div.bg { opacity: 0%;
         
-    }
-
-    img.miketyson {
-        height: 40px;
-        width: 40px;
-
-        float: right;
-        clear: none;
     }
 
     div.header {
@@ -316,6 +299,32 @@ body {
        }
 
 
+       /* Begin Images CSS */
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 180px;
+    height: 58px;
+
+    }
+    
+    img.miketyson {
+        height: 40px;
+        width: 40px;
+        
+        float: right;
+        clear: none;
+    }
+
+
+
+
+
+
+
 div.sharma {
         float: left;
         padding-left: 50px;
@@ -360,6 +369,8 @@ div.sharma {
 
     }
        
+/* End Images CSS */
+
 
     
     #grad1 {
