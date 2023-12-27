@@ -350,6 +350,13 @@
         float: right;
         clear: none;
     }
+
+    img.footerskull {
+        height:128px;
+        width:128px;
+
+        float: left;
+    }
     
     
     div.sharma {
