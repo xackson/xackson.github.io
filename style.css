@@ -101,8 +101,8 @@
 
             
     
-            margin-left: 90px;
-            margin-right: 90px;
+            margin-left: 70px;
+            margin-right: 70px;
 
             padding-left: 2px;
             padding-right: 2px;
@@ -199,6 +199,13 @@
             font-family: 'Times New Roman', Times, serif;
             color: #F6F7EB;
             
+        }
+
+        p.divider {
+            font-size: 13px;
+            font-family: 'Times New Roman', Times, serif;
+            color: #F6F7EB;
+            text-align: center;
         }
 
 
