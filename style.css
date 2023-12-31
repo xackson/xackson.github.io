@@ -293,22 +293,13 @@
 
     }
 
-    div.orderedlist {
-        padding: 0px 12px 0px 12px;
-        margin: 20px 10px 20px 10px;
+    div.conflictresolution {
 
-
-        background-color: #494949;
-        opacity: 85%;    
-
-        border-style: solid;
-        border-width: 5px;
-        border-radius: 20px;
-        clear: none;
-        text: white;
-
+        float:inline-start;
+        width:128px;
 
     }
+
     
 
     
@@ -400,6 +391,15 @@
     height: 58px;
 
     }
+
+    img.footerskull {
+        width: 190px;
+        height: 80px;
+
+        margin:2px 99px 2px 97px;
+
+
+    }
     
     img.miketyson {
         height: 40px;
@@ -409,12 +409,7 @@
         clear: none;
     }
 
-    img.footerskull {
-        height:128px;
-        width:128px;
-
-        float: left;
-    }
+    
     
     
     div.sharma {
