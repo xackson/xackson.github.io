@@ -2,75 +2,39 @@
 
 /* Begin Text CSS */
 
-    h1 {
+    h1.header {
 
-        font-size:40px;
+        font-size:36px;
 
-        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         text-align: center;
-    
+
+        margin: 3px 0px 0px 0px;
+
+        float: left;
+        clear: both;
+        
         }
     
-        h1.selected {
 
-            font-size: 1em;
-            color: #F6F7EB;
-            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        h2.header {
+            font-size: 30px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
             text-align: center;
-    
-            background-color: #393D3F;  
-    
-            opacity: 85%;
+
+            color: #02040F;
+
+            margin: 3px 10px 7px 0px;
+
+            float: right;
+            clear: both;
             
-            border-style: solid;
-            border-color: #698C89;
-            border-radius: 20px;
-            border-width: 1px;
     
-            margin-top: 4px;
-            margin-bottom: 4px;
-                
-       
-        }
-
-        h1.secondary {
-
-            font-size: 1em;
-            color: #F6F7EB;
-            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            text-align: center;
-    
-            background-color: #393D3F;  
-    
-            opacity: 85%;
             
-            border-style: solid;
-            border-color: #02040F;
-            border-radius: 20px;
-            border-width: 2px;
     
-            margin-top: 4px;
-            margin-bottom: 4px;
-                
-       
-        }
-
-
-        h2 {
-            color: #F6F7EB;
-            font-size: 24px;
-            font-family:'Courier New', Courier, monospace; 
-            text-align: center;
-            line-height: 2em;
-    
-            margin-left: 25%;
-            margin-right: 25%;
-    
-            border-radius: 10px;
-            border-style: solid;
-            border-color: #f2a900;
-            border-width: 4px;
+           
         }
     
         h2.selected {
@@ -91,30 +55,17 @@
             }
     
         h3 { 
-            font-size:15px;
+            font-size:24px;
             font-weight: 500;
 
             font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             text-align: center;
             color: #F6F7EB;
             line-height: 2em;
-
-            
-    
-            margin-left: 70px;
-            margin-right: 70px;
-
-            padding-left: 2px;
-            padding-right: 2px;
-    
-            border-radius: 25px;
-            border-style: solid;
-            border-color: #698C89;
-            border-width: 3px;
         }
 
         h3.warning { 
-            font-size:15px;
+            font-size:24px;
             font-weight: 500;
 
             font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -123,8 +74,8 @@
             line-height: 2em;
             
     
-            margin-left: 90px;
-            margin-right: 90px;
+            margin-left: 50px;
+            margin-right: 50px;
 
             padding-left: 2px;
             padding-right: 2px;
@@ -136,41 +87,21 @@
 
         }
 
-        h3.other { 
-            font-size:15px;
-            font-weight: 500;
-
-            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            text-align: center;
-            color: #F6F7EB;
-            line-height: 2em;
-            
-    
-            margin: 0px 50px 0px 50px;
-
-            padding-left: 2px;
-            padding-right: 2px;
-    
-            border-radius: 25px;
-            border-style: solid;
-            border-color: #698C89;
-            border-width: 3px;
-
-        }
+        
         
         h4 {
 
-            font-size: 15px;
+            font-size: 16px;
             font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             text-align: center;
 
             color: #F6F7EB;
             line-height: 2em;
     
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: 35%;
+            margin-right: 35%;
     
-            border-radius: 25px;
+            border-radius: 50px;
             border-style: solid;
             border-color: #f2a900;
             border-width: 3px;
@@ -178,7 +109,17 @@
     
         h5 {
 
+            font-size: 12px;
+
             text-align: center;
+
+            margin-left: 35%;
+            margin-right: 35%;
+    
+            border-radius: 50px;
+            border-style: solid;
+            border-color: #f2a900;
+            border-width: 3px;
         }
         
         p { 
@@ -210,6 +151,29 @@
             text-align: center;
         }
 
+        .buttonhover {
+            background-color: #f2A900;
+            border: solid;
+            border-color:#02040F;
+            border-radius: 10px;
+
+
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+
+            margin-left: auto;
+            margin-right: auto;
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+
+            
+          }
+
 
         /* End Text CSS */
 
@@ -222,28 +186,28 @@
         background-color:#698C89;
         background-size: cover;
         max-width: 100%;
+    
+    }
 
-            }
+
     a {
         color: blue;
     }
 
 
     div.header {
-        padding: 3px 48px 3px 48px;
-        margin: 10px 64px 10px 64px;
+        padding: 1px 1px 1px 1px;
+        margin: 10px 270px 10px 270px;
+
+        
 
 
         background-color: #162526;
         border-width: 2px; 
         border-style: solid;
         border-color: #02040F;
-        border-radius: 50px;
-
-        
-        
-
-
+        border-radius: 10px;
+    
     }
 
         
@@ -367,7 +331,7 @@
 
     footer { 
          
-        border-style: solid;
+        border-style: none;
         border-radius: 10px;
         border-width: 5px;
         margin-left: 50px;
@@ -393,12 +357,16 @@
     }
 
     img.footerskull {
+
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+
         width: 190px;
         height: 80px;
 
-        margin:2px 125px 2px 92px;
-
-
+        
+       
     }
     
     img.miketyson {
