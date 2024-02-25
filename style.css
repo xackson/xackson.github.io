@@ -181,7 +181,7 @@
     
     body {        
         font-size:12px;
-        background-color:#698C89;
+        background: linear-gradient(to right, #ffdde1, #698C89);
         background-size: cover;
         max-width: 100%;
     
@@ -345,6 +345,11 @@
        }
 
 
+
+
+
+
+       
        /* Begin Images CSS */
 
 .banner {
