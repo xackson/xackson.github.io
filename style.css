@@ -189,8 +189,12 @@
 
 
     a {
-        color: blue;
-    }
+        position:relative;
+        text-decoration:none;
+        color:white;
+        font-size: 13px;
+        border-top:1px solid #03A2A2;  
+      }
 
 
     div.header {
@@ -349,7 +353,7 @@
 
 
 
-       
+
        /* Begin Images CSS */
 
 .banner {
