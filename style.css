@@ -320,6 +320,9 @@
     img { height: 252px;
         width: 189px;
 
+        border-color: black;
+        border-width: 3px;
+
     }
 
     iframe.seth {
