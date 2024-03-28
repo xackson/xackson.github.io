@@ -30,6 +30,8 @@
 
             float: center;
             clear: both;
+
+            box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
             
     
             
@@ -359,6 +361,8 @@
         border-width: 3px; 
 
     }
+
+    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
 
     ol { 
         font-size:16px;
