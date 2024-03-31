@@ -223,6 +223,15 @@
         top:12px;
       }
 
+      div { 
+        background-color: #162526;
+        border-color:#f2a900;
+        border-style: dotted;
+        border-width: 2px;
+
+
+      }
+
 
       /* END NAVBAR CSS */
 
