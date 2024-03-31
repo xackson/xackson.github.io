@@ -226,8 +226,10 @@
       div { 
         background-color: #162526;
         border-color:#f2a900;
-        border-style: dotted;
+        border-style: Solid;
         border-width: 2px;
+
+        
 
 
       }
