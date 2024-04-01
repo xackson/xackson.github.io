@@ -187,9 +187,22 @@
         background: linear-gradient(to right, #ffdde1, #698C89);
         background-size: cover;
         max-width: 100%;
+
+        border-color: white;
+        border-width: 3px;
     
     }
 
+    div { 
+        background-color: none;
+        border-color:#f2a900;
+        border-style: Solid;
+        border-width: 2px;
+
+        
+
+
+      }
     /* BEGIN NAVBAR CSS */
 
     a {
@@ -221,17 +234,6 @@
       nav .nav-text  {
         position:relative;
         top:12px;
-      }
-
-      div { 
-        background-color: none;
-        border-color:#f2a900;
-        border-style: Solid;
-        border-width: 2px;
-
-        
-
-
       }
 
 
