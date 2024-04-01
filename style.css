@@ -26,7 +26,7 @@
 
             color: #02040F;
 
-            margin: 3px 10px 7px 0px;
+            margin: 7px 200px 7px 200px;
 
             float: center;
             clear: both;
@@ -193,11 +193,38 @@
     
     }
 
+    b.one {
+        position: absolute;
+        background-color:black;
+
+    }
+
+    b.two {
+        position: absolute;
+        background-color:white;
+
+    }
+
+    b.three {
+        position: absolute;
+        background-color:black;
+
+    }
+
+    b.four {
+        position: absolute;
+        background-color:white;
+
+    }
+
     div { 
         background-color: none;
         border-color:#f2a900;
         border-style: Solid;
         border-width: 2px;
+
+        background-clip: content-box;
+
 
         
 
