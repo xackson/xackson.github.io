@@ -185,14 +185,17 @@
     }
 
     div { 
-        background-color: none;
-        border-color:#f2a900;
+        border-color:black;
         border-style: Solid;
         border-width: 2px;
 
         background-clip: content-box;
-
-
+        
+        background: rgba(255, 255, 255, 0.58);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);backdrop-filter: blur(5.4px);
+        -webkit-backdrop-filter: blur(5.4px);
+        border: 1px solid rgba(255, 255, 255, 0.22);
         
 
 
@@ -279,18 +282,7 @@
         
         clear: none;
 
-    }
-
-    div.conflictresolution {
-
-        float:inline-start;
-        width:128px;
-
-    }
-
-    
-
-    
+    }    
 
     section { 
         
