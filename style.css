@@ -205,58 +205,6 @@
 
     /* Begin Figma Box Designs */
 
-    .v3_6 {
-        width: 380px;
-        height: 217px;
-        background: none;
-        opacity: 1;
-        position: relative;
-        top: 0px;
-        left: 0px;
-        overflow: hidden;
-      }
-      .v3_7 {
-        width: 189px;
-        height: 109px;
-        background: linear-gradient(rgba(161,161,161,1), rgba(59,59,59,1));
-        opacity: 1;
-        position: absolute;
-        top: 54px;
-        left: 198px;
-        border-top-left-radius: 21px;
-        border-top-right-radius: 21px;
-        border-bottom-left-radius: 21px;
-        border-bottom-right-radius: 21px;
-        overflow: hidden;
-      }
-      .v3_8 {
-        width: 72px;
-        height: 183px;
-        background: linear-gradient(rgba(80,80,80,1), rgba(182,182,182,1));
-        opacity: 1;
-        position: absolute;
-        top: 17px;
-        left: 152px;
-        border-top-left-radius: 21px;
-        border-top-right-radius: 21px;
-        border-bottom-left-radius: 21px;
-        border-bottom-right-radius: 21px;
-        overflow: hidden;
-      }
-      .v3_15 {
-        width: 87px;
-        height: 86px;
-        background: linear-gradient(rgba(255,243,182,1), rgba(153,146,109,1));
-        opacity: 1;
-        position: absolute;
-        top: 12px;
-        left: 373px;
-        border-top-left-radius: 67px;
-        border-top-right-radius: 67px;
-        border-bottom-left-radius: 67px;
-        border-bottom-right-radius: 67px;
-        overflow: hidden;
-      }
 
 
 
