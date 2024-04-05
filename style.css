@@ -185,6 +185,9 @@
     }
 
     div { 
+
+        display: flex;    
+
         border-color:black;
         border-style: Solid;
         border-width: 2px;
