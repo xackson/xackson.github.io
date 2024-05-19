@@ -378,10 +378,8 @@
         width: 239px;
         height: 450px;
 
-        display: flex;
-        scrolling: no; 
-        frameborder: no;
-        allow: autoplay;
+        clear: both;
+        
 
     }
 
