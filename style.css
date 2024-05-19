@@ -367,8 +367,17 @@
 
 
     .youtube {
-        height: 144px;
+        height: 450px;
         width: 239px;
+    }
+
+    .soundcloud { 
+        width: 239px;
+        height: 450px;
+        scrolling: no; 
+        frameborder: no;
+        allow: autoplay;
+
     }
 
     
