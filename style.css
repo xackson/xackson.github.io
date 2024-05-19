@@ -224,7 +224,8 @@
         text-decoration:none;
         color:black;
         font-size: 13px;
-        border-top:1px solid #03A2A2;  
+        border:1px solid #03A2A2;
+        border-radius: 3px;
       }
 
       a{
