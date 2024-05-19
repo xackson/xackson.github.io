@@ -371,6 +371,7 @@
         width: 239px;
 
         display: flex;
+        float: left;
         
     }
 
@@ -378,7 +379,7 @@
         width: 239px;
         height: 450px;
 
-        clear: both;
+        float: right;
         
 
     }
