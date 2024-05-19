@@ -369,11 +369,16 @@
     .youtube {
         height: 450px;
         width: 239px;
+
+        display: flex;
+        
     }
 
     .soundcloud { 
         width: 239px;
         height: 450px;
+
+        display: flex;
         scrolling: no; 
         frameborder: no;
         allow: autoplay;
