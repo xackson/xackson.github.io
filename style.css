@@ -153,7 +153,8 @@
     
     body {        
         font-size:12px;
-        background: linear-gradient(to right, #ffdde1, #698C89);
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,63,9,1) 25%, rgba(8,31,135,1) 50%, rgba(37,137,8,1) 75%, rgba(0,212,255,1) 100%);
         background-size: cover;
         max-width: 100%;
 
