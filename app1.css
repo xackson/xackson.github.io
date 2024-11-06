@@ -1,0 +1,16 @@
+h1 { 
+    font-family: 'Palatino';
+    font-size: 32px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+
+}
+
+p.tags {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+
+}
