@@ -205,7 +205,7 @@
     
     }
 
-    /* BEGIN ANIMATED TICKER */
+    /* BEGIN TESTIMONIAL TICKER */
 
     .testimonial-ticker {
         overflow: hidden;
@@ -221,7 +221,7 @@
     
     .ticker-content {
         display: inline-block;
-        animation: scroll-ticker 10s linear infinite;
+        animation: scroll-ticker 18s linear infinite;
     }
     
     @keyframes scroll-ticker {
@@ -237,7 +237,8 @@
         display: inline;
         margin: 0 50px; /* Space between testimonials */
     }
-/* END ANIMATED TICKER */
+/* END TESTIMONIAL TICKER */
+
     /* Begin Figma Box Designs */
 
 
