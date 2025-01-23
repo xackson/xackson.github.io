@@ -205,6 +205,37 @@
     
     }
 
+    .testimonial-ticker {
+        overflow: hidden;
+        white-space: nowrap;
+        background-color: #162526;
+        padding: 10px 0;
+        color: #f6f7eb;
+        font-size: 14px;
+        border: 1px solid #02040F;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .ticker-content {
+        display: inline-block;
+        animation: scroll-ticker 10s linear infinite;
+    }
+    
+    @keyframes scroll-ticker {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    
+    .ticker-content p {
+        display: inline;
+        margin: 0 50px; /* Space between testimonials */
+    }
+
     /* Begin Figma Box Designs */
 
 
