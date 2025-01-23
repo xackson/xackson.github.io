@@ -205,6 +205,8 @@
     
     }
 
+    /* BEGIN ANIMATED TICKER */
+
     .testimonial-ticker {
         overflow: hidden;
         white-space: nowrap;
@@ -235,7 +237,7 @@
         display: inline;
         margin: 0 50px; /* Space between testimonials */
     }
-
+/* END ANIMATED TICKER */
     /* Begin Figma Box Designs */
 
 
