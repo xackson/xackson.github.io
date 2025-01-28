@@ -250,23 +250,41 @@
 
     /* BEGIN NAVBAR CSS */
 
-    a {
-        position:relative;
-        text-decoration:none;
-        color:black;
-        font-size: 13px;
-        border:1px solid #03A2A2;
-        border-radius: 3px;
-      }
-
-      a{
-        display:table;
-      }
-
-      a:hover{
-        color:#fff;
-        background-color:#3863F4; 
-     }
+    nav {
+        text-align: center; /* Center-align the nav bar */
+        background-color: #162526; /* Add a background color for contrast */
+        padding: 10px 0; /* Add some padding for spacing */
+        margin-bottom: 20px; /* Add space below the nav bar */
+    }
+    
+    nav ul {
+        list-style: none; /* Remove bullet points from list items */
+        margin: 0;
+        padding: 0;
+        display: flex; /* Make the list items align in a row */
+        justify-content: center; /* Center-align the list items */
+        gap: 20px; /* Add spacing between items */
+    }
+    
+    nav ul li {
+        display: inline-block; /* Ensure the list items are inline */
+    }
+    
+    nav ul li a {
+        text-decoration: none; /* Remove underline from links */
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #03A2A2; /* Button color */
+        transition: background-color 0.3s, color 0.3s; /* Add smooth hover effect */
+    }
+    
+    nav ul li a:hover {
+        background-color: #3863F4; /* Change button color on hover */
+        color: #fff; /* Change text color on hover */
+    }
 
 
       /* END NAVBAR CSS */
