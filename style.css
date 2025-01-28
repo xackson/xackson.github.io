@@ -221,7 +221,7 @@
     
     .ticker-content {
         display: inline-block;
-        animation: scroll-ticker 18s linear infinite;
+        animation: scroll-ticker 21s linear infinite;
     }
     
     @keyframes scroll-ticker {
