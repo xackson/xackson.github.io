@@ -251,39 +251,59 @@
     /* BEGIN NAVBAR CSS */
 
     nav {
-        text-align: center; /* Center-align the nav bar */
-        background-color: #162526; /* Add a background color for contrast */
-        padding: 10px 0; /* Add some padding for spacing */
-        margin-bottom: 20px; /* Add space below the nav bar */
+        text-align: center;
+        background-color: #162526;
+        padding: 10px 0;
+        margin-bottom: 20px;
     }
     
     nav ul {
-        list-style: none; /* Remove bullet points from list items */
+        list-style: none;
         margin: 0;
         padding: 0;
-        display: flex; /* Make the list items align in a row */
-        justify-content: center; /* Center-align the list items */
-        gap: 20px; /* Add spacing between items */
+        display: flex; /* Align items in a row */
+        justify-content: center; /* Center-align the nav items */
+        gap: 20px; /* Add space between nav items */
+        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
     }
     
     nav ul li {
-        display: inline-block; /* Ensure the list items are inline */
+        display: flex; /* Use flexbox for centering text */
+        align-items: center; /* Vertically center the text */
+        justify-content: center; /* Horizontally center the text */
+        padding: 5px; /* Add padding around each button */
     }
     
     nav ul li a {
-        text-decoration: none; /* Remove underline from links */
+        text-decoration: none;
         font-size: 16px;
         font-weight: bold;
         color: white;
         padding: 10px 20px;
         border-radius: 5px;
-        background-color: #03A2A2; /* Button color */
-        transition: background-color 0.3s, color 0.3s; /* Add smooth hover effect */
+        background-color: #03A2A2;
+        transition: background-color 0.3s, color 0.3s;
+        display: block; /* Ensure the links take full width of the list item */
+        text-align: center; /* Center-align the text inside the button */
+        word-wrap: break-word; /* Prevent long text from breaking the layout */
     }
     
     nav ul li a:hover {
-        background-color: #3863F4; /* Change button color on hover */
-        color: #fff; /* Change text color on hover */
+        background-color: #3863F4;
+        color: #fff;
+    }
+    
+    /* Responsive adjustments for smaller screens */
+    @media screen and (max-width: 600px) {
+        nav ul {
+            flex-direction: column; /* Stack items vertically on smaller screens */
+            gap: 10px; /* Adjust spacing between items */
+        }
+    
+        nav ul li a {
+            font-size: 14px; /* Slightly reduce font size for smaller screens */
+            padding: 8px 15px; /* Adjust padding for smaller buttons */
+        }
     }
 
 
@@ -345,7 +365,7 @@
         border-width: 5px;
         border-radius: 20px;
         clear: none;
-        text: white;
+        font-color: white;
         
         clear: none;
 
