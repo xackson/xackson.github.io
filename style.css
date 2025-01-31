@@ -255,6 +255,8 @@
         background-color: #939999;
         padding: 10px 0;
         margin-bottom: 20px;
+
+        border-radius: 3px; 
     }
     
     nav ul {
