@@ -62,6 +62,53 @@
 
 </div>
 
+<button class="permission-btn" id="permission-btn">Balance</button>
+    <div class="ball" id="ball"></div>
+
+    <script>
+        const ball = document.getElementById('ball');
+        const permissionBtn = document.getElementById('permission-btn');
+        let x = window.innerWidth / 2;
+        let y = window.innerHeight / 2;
+        const speed = 2; // Adjust speed factor
+
+        // Check if permission is required for iOS
+        function checkPermission() {
+            if (typeof DeviceMotionEvent.requestPermission === 'function') {
+                permissionBtn.style.display = "block";
+                permissionBtn.addEventListener("click", function () {
+                    DeviceMotionEvent.requestPermission().then(response => {
+                        if (response === "granted") {
+                            permissionBtn.style.display = "none";
+                            window.addEventListener("deviceorientation", handleOrientation, true);
+                        }
+                    }).catch(console.error);
+                });
+            } else {
+                // If no permission is needed, start listening
+                window.addEventListener("deviceorientation", handleOrientation, true);
+            }
+        }
+
+        function handleOrientation(event) {
+            let tiltX = event.gamma; // Left to Right tilt (-90 to 90)
+            let tiltY = event.beta;  // Front to Back tilt (-180 to 180)
+
+            // Update position based on tilt
+            x += tiltX * speed;
+            y += tiltY * speed;
+
+            // Keep the ball within the screen bounds
+            x = Math.max(0, Math.min(window.innerWidth - 50, x));
+            y = Math.max(0, Math.min(window.innerHeight - 50, y));
+
+            // Apply new position
+            ball.style.transform = `translate(${x}px, ${y}px)`;
+        }
+
+        checkPermission();
+    </script>
+
 <div class="testimonial-ticker">
     <div class="ticker-content">
         <p>“Kindel Enterprises provided exceptional service!” - Ryan M.</p>
