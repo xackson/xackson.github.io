@@ -475,10 +475,7 @@
         
 
     }
-/* BALANCE BALL  */
-    
 
-    /* END BALANCE BALL */
 
 footer {
     background-color: #2c3e50;
@@ -493,6 +490,8 @@ footer img.footerskull {
     opacity: 0.8;
     margin-bottom: 10px;
 }
+
+.roblox-circle-img { align-content: center; }
 
 /* Mobile Responsiveness */
 @media screen and (max-width: 600px) {
