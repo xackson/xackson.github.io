@@ -491,7 +491,10 @@ footer img.footerskull {
     margin-bottom: 10px;
 }
 
-.roblox-circle-img { align-items: center; }
+.roblox-circle-img { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; }
 
 /* Mobile Responsiveness */
 @media screen and (max-width: 600px) {
