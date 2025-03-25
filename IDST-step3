@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KindelUX</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"> </script> 
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="./blog.html"><b>Step 2</b></a></li>
+            <li><a href="./IDST-step3.html"><b>Step 3</b></a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+
+
+
+</body>
